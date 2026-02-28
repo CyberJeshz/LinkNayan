@@ -1,0 +1,28 @@
+{
+    "crisis_hotlines":[
+        {
+            "id": "ncmh-crisis",
+            "name": "NCMH Crisis Hotline",
+            "organization": "National Health Center for Mental Health",
+            "number": "0917-899-8727",
+            "alternative_number": "1553",
+            "availability": "24/7",
+            "cost": "Free",
+            "languages": ["Filipino", "English"],
+            "coverage": "Nationwide (1553 for Luzon landline only)",
+            "services": ["Crisis Intervention", "Suicide Prevention", "Mental Health Support"],
+            "description": "24/7 crisis intervention and mental health support hotline."
+        }
+    ],
+    "emergency":[
+        {
+            "id": "emergency-911",
+            "name": "Emergency Hotline",
+            "number": "911",
+            "availability": "24/7",
+            "coverage":"Nationwide",
+            "services": ["Police", "Fire", "Medical Emergency"],
+            "description": "For immediate life-threatening emergencies."
+        }
+    ]
+}

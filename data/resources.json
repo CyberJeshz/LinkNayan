@@ -1,0 +1,66 @@
+{
+  "educational": [
+    {
+      "id": "doh-mh",
+      "title": "Mental Health Information",
+      "source": "Department of Health Philippines",
+      "url": "https://doh.gov.ph",
+      "type": "Government resource",
+      "languages": ["English", "Filipino"],
+      "topics": ["Mental health basics", "When to seek help", "Available services"],
+      "description": "Official government information on mental health"
+    }
+  ],
+  "support_groups": [
+    {
+      "id": "adsg-ph",
+      "name": "Anxiety and Depression Support Group Philippines",
+      "platform": "Facebook",
+      "type": "Peer support community",
+      "members": "50,000+",
+      "link": "https://facebook.com/groups/anxietyphilippines",
+      "languages": ["Filipino", "English"],
+      "moderated": true,
+      "description": "Active community for sharing experiences and mutual support"
+    }
+  ],
+  "coping_techniques": [
+    {
+      "id": "breathing-478",
+      "name": "4-7-8 Breathing Technique",
+      "category": "Anxiety management",
+      "evidence_based": true,
+      "difficulty": "Easy",
+      "duration": "2-3 minutes",
+      "steps": [
+        "Find a comfortable position, sitting or lying down",
+        "Place the tip of your tongue behind your upper front teeth",
+        "Breathe in quietly through your nose for 4 seconds",
+        "Hold your breath for 7 seconds",
+        "Exhale completely through your mouth for 8 seconds",
+        "Repeat the cycle 3-4 times"
+      ],
+      "when_to_use": ["During anxiety", "Panic attacks", "Before sleep", "When feeling overwhelmed"],
+      "benefits": ["Reduces anxiety", "Calms nervous system", "Improves focus"],
+      "cautions": ["May feel lightheaded at first - this is normal", "Start with 1-2 cycles if new to breathing exercises"]
+    },
+    {
+      "id": "grounding-54321",
+      "name": "5-4-3-2-1 Grounding Technique",
+      "category": "Anxiety management",
+      "evidence_based": true,
+      "difficulty": "Easy",
+      "duration": "3-5 minutes",
+      "steps": [
+        "Acknowledge 5 things you can SEE around you",
+        "Acknowledge 4 things you can TOUCH",
+        "Acknowledge 3 things you can HEAR",
+        "Acknowledge 2 things you can SMELL",
+        "Acknowledge 1 thing you can TASTE"
+      ],
+      "when_to_use": ["During panic attacks", "When feeling dissociated", "When overwhelmed", "Flashbacks or intrusive thoughts"],
+      "benefits": ["Grounds you in present moment", "Reduces panic", "Helps with dissociation"],
+      "cautions": []
+    }
+  ]
+}

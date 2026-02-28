@@ -1,0 +1,64 @@
+{
+  "government_services": [
+    {
+      "id": "ncmh-main",
+      "name": "National Center for Mental Health",
+      "type": "Government Hospital",
+      "services": ["Psychiatry", "Psychology", "In-patient care", "Out-patient care", "Emergency services"],
+      "location": {
+        "address": "Nueve de Febrero St, Mauway, Mandaluyong City",
+        "city": "Mandaluyong",
+        "region": "Metro Manila",
+        "coordinates": {
+          "lat": 14.5764,
+          "lng": 121.0544
+        }
+      },
+      "contact": {
+        "phone": "(02) 8531-9001",
+        "email": "ncmh@doh.gov.ph",
+        "website": "https://www.ncmh.gov.ph"
+      },
+      "cost": "Free to subsidized",
+      "insurance": ["PhilHealth"],
+      "languages": ["Filipino", "English"],
+      "hours": "24/7 emergency, clinic hours vary",
+      "notes": "Walk-in consultations available. Bring PhilHealth ID if applicable."
+    }
+  ],
+  "online_platforms": [
+    {
+      "id": "silakbo",
+      "name": "Silakbo PH",
+      "type": "Online Therapy Platform",
+      "services": ["Video therapy", "Chat therapy", "Psychiatry (online)"],
+      "location": {
+        "type": "Online",
+        "coverage": "Nationwide"
+      },
+      "contact": {
+        "website": "https://www.silakbo.ph",
+        "email": "hello@silakbo.ph"
+      },
+      "cost": "₱500-1,500 per session",
+      "insurance": [],
+      "languages": ["Filipino", "English"],
+      "hours": "By appointment",
+      "notes": "Licensed Filipino therapists. Flexible scheduling. Payment via GCash/PayMaya/Card."
+    }
+  ],
+  "directories": [
+    {
+      "id": "ppa",
+      "name": "Philippine Psychiatric Association",
+      "type": "Professional Directory",
+      "description": "Find licensed psychiatrists in the Philippines",
+      "contact": {
+        "website": "https://www.ppaonline.org",
+        "email": "info@ppaonline.org"
+      },
+      "search_available": true,
+      "notes": "Directory of board-certified psychiatrists by region"
+    }
+  ]
+}
