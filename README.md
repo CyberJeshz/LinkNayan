@@ -100,7 +100,7 @@ linknayan/
 
 ## 📚 What I'm Learning
 
-This is my **first AI project** as an 18-year-old CS freshman. Through this I'm learning:
+This is my **first AI project** as a CS freshman. Through this I'm learning:
 
 - ✅ Working with AI APIs (OpenRouter/OpenAI)
 - ✅ Modern Python tooling (UV)
@@ -113,7 +113,7 @@ This is my **first AI project** as an 18-year-old CS freshman. Through this I'm 
 
 ## 🎯 Goals
 
-**Short-term (This week):**
+**Short-term:**
 - [ ] Complete resource database (hotlines, services)
 - [ ] Build situation analysis with AI
 - [ ] Implement crisis detection
@@ -161,22 +161,6 @@ Currently researching and verifying:
 
 *All resources will be verified before launch.*
 
----
-
-## 📝 Development Log
-
-**Week 1 (Current):**
-- Set up project with UV
-- Integrated OpenRouter API
-- Started building resource database
-- Learning prompt engineering
-
-**Next Week:**
-- Complete core features
-- Test crisis detection
-- Finalize resource list
-
----
 
 ## ⚠️ Known Issues / TODO
 
@@ -205,7 +189,7 @@ Don't wait for this tool to be finished - these resources are available now!
 
 **Developer:** Jezreel E. Guillermo
 **GitHub:** [@Jeshz-Dev](https://github.com/Jez-prog/LinkNayan.git))  
-**Email:** jezreeleguillermi@gmail.com
+**Email:** jezreeleguillermo@gmail.com
 
 **Status updates:** Follow this repo or check commit history
 
