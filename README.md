@@ -208,6 +208,6 @@ MIT License - feel free to learn from or fork this code!
 
 Building in public as part of my AI learning journey
 
-Made with 💚 by Jesh-Dev
+Made with 💚 by CyberJeshz
 
 </div>
