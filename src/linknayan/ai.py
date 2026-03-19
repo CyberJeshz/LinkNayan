@@ -38,3 +38,22 @@ def detect_crisis(text):
 
 if __name__ == "__main__":
     print(detect_crisis("I want to kill myself."))
+    print(detect_crisis("I feel anxious today"))
+    print(detect_crisis("gusto kong mamatay maem"))
+    print(detect_crisis("gi kapoy najud ko bai ai shet"))
+
+
+"""
+outputs:
+ uv run python -m src.linknayan.ai
+congrats it exist!
+True
+False
+True
+False
+(linknayan) [inconJeshztion@inconJeshztion linknayan]$ git 
+
+"""
+
+
+    
