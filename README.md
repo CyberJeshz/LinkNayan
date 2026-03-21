@@ -10,7 +10,6 @@
 
 LinkNayan is an AI-powered CLI tool I'm building to help Filipinos find mental health resources. Instead of Googling and getting overwhelmed, users can describe their situation in plain language and get matched with appropriate resources like crisis hotlines, therapists, and support groups.
 
-"LinkNayan" = "Link" + "Nayan" (Tagalog for "ours")
 
 ---
 
@@ -31,16 +30,17 @@ This is **NOT** medical advice or a replacement for professional help. It's an i
 - OpenRouter AI integration (config.py done)
 - Resource database structure (hotlines, professionals, resources JSON files)
 - Resource loader (resources.py done)
+- Crisis detection logic (detect_crisis() done and tested)
 
 **In progress:**
-- Crisis detection (ai.py)
-- Situation analysis (ai.py)
+- AI situation analysis (call_ai() and analyze_situation() in ai.py)
+- Currently blocked by OpenRouter free model availability issues — free models are either rate-limited or returning 404 errors. Actively testing alternative free models.
 
 **Not started yet:**
 - CLI interface (main.py)
 - Web app (Streamlit)
 
-Honest note: Progress has been slow — this is a solo project built while studying full-time as a first-year CS student. Building it properly matters more than building it fast.
+Honest note: Progress has been slow — this is a solo project built while studying full-time as a first-year CS student. Current blocker is finding a stable free AI model through OpenRouter that works consistently without rate limits or endpoint errors. Building it properly matters more than building it fast.
 
 ---
 
@@ -48,7 +48,7 @@ Honest note: Progress has been slow — this is a solo project built while study
 
 - **Python 3.11+**
 - **UV** - Fast package manager (replaces pip/venv)
-- **OpenRouter** - Free AI models (GPT-OSS 120B)
+- **OpenRouter** - Free AI models (model under evaluation due to availability issues)
 - **OpenAI SDK** - API integration
 
 ---
@@ -60,7 +60,7 @@ Prerequisites:
 - UV package manager
 ```bash
 # Clone repo
-git clone https://github.com/Jez-prog/LinkNayan.git
+git clone https://github.com/CyberJeshz/LinkNayan.git
 cd linknayan
 
 # Install UV (if needed)
@@ -99,6 +99,13 @@ linknayan/
 
 ---
 
+## Known Blockers
+
+- **OpenRouter free model instability** — The primary free model (openai/gpt-oss-120b:free) is rate-limited upstream. Alternative free models are returning 404 errors. Currently evaluating stable free model options before continuing with analyze_situation().
+- Resource database needs more verified Philippine-specific entries before launch.
+
+---
+
 ## What I'm Learning
 
 This is my first AI project as a first-year CS student. Through this I'm learning:
@@ -109,6 +116,7 @@ This is my first AI project as a first-year CS student. Through this I'm learnin
 - Python project structure
 - Prompt engineering
 - Building ethical AI (crisis detection, safety)
+- Debugging API integration issues in production
 - CLI design and user experience
 
 ---
@@ -116,7 +124,8 @@ This is my first AI project as a first-year CS student. Through this I'm learnin
 ## Goals
 
 **Immediate (this week):**
-- Finish ai.py (detect_crisis, analyze_situation)
+- Resolve OpenRouter model availability issue
+- Finish ai.py (analyze_situation)
 - Build main.py (CLI interface)
 - Get working end-to-end prototype
 
@@ -145,8 +154,8 @@ If you or someone needs help NOW, don't wait for this tool:
 
 ## Contact
 
-**Developer:** Jezreel E. Guillermo  
-**GitHub:** [@CyberJeshz](https://github.com/CyberJeshz/LinkNayan.git)  
+**Developer:** Jezreel E. Guillermo
+**GitHub:** [@CyberJeshz](https://github.com/CyberJeshz/LinkNayan.git)
 **Email:** jezreeleguillermo@gmail.com
 
 ---
