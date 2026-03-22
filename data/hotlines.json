@@ -17,7 +17,7 @@
     "emergency":[
         {
             "id": "emergency-911",
-            "name": "Emergency Hotline",
+            "name": "International Emergency Hotline",
             "number": "911",
             "availability": "24/7",
             "coverage":"Nationwide",
